@@ -1,0 +1,21 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "ModuleExcercise"
+include ':app'
+include ':app:amodule'
+include ':app:bmodoule'
+include ':app:startmodule'
+include ':app:cmodule'
+include ':app:dmodule'
